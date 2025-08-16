@@ -182,6 +182,11 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+      defaultMode: 'dark',       // dark theme on first load
+      disableSwitch: false,      // allow toggle (set to true if you want to force dark only)
+      respectPrefersColorScheme: false, // ignore OS/browser theme
+    },
     }),
 };
 
