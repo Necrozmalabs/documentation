@@ -1,0 +1,44 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;          /* allow wrapping on small screens */
+  align-items: center;
+  justify-content: center;  /* center horizontally */
+  gap: 2rem;                /* spacing between feature cards */
+  padding: 2rem 1rem;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.h1{
+  font-size: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  margin-bottom: '40px';
+}
+
+.svg-row-container {
+  display: flex;
+  justify-content: center; /* center all SVGs */
+  align-items: center;     /* vertically align */
+  gap: 20px;               /* space between SVGs */
+  background-color: #f0f0f0; /* light background */
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.svg-row-container img {
+  width: 60px;   /* control SVG size */
+  height: 60px;
+  transition: transform 0.3s; /* optional hover effect */
+}
+
+.svg-row-container img:hover {
+  transform: scale(1.2); /* optional: enlarge on hover */
+}
+
+

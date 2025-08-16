@@ -1,0 +1,99 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden;
+
+}
+
+/* Optional: animated smoke shapes using pseudo-elements */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.05), transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(255,255,255,0.05), transparent 50%);
+  animation: moveSmoke 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes moveSmoke {
+  0% { transform: rotate(0deg) translate(0,0); }
+  50% { transform: rotate(180deg) translate(50px,50px); }
+  100% { transform: rotate(360deg) translate(0,0); }
+}
+
+/* Make sure content is above background */
+.hero__title,
+.hero__subtitle,
+.buttons {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
+}
+
+@media (max-width: 640px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+  .buttons .button {
+    width: 80%;
+  }
+}
+
+.button-blue {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.button-blue:hover {
+  background-color: #1d4ed8;
+}
+
+.button-green {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.button-green:hover {
+  background-color: #15803d;
+}
