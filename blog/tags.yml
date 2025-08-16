@@ -1,19 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+Update:
+  label: Update
+  permalink: /update
+  description: Updates in Open Research Laboratory
 
 hello:
   label: Hello
   permalink: /hello
-  description: Hello tag description
+  description: Hello World
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+NecrozmaLabs:
+  label: Necrozma Labs
+  permalink: /necrozma
+  description: Necrozma Labs

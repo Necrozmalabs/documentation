@@ -1,25 +1,27 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+abhinav:
+  name: Abhinav Sharma
+  title: founder Necrozma Labs
+  url: https://www.linkedin.com/in/abhinavsharma07/
+  image_url: https://media.licdn.com/dms/image/v2/D5603AQHyDX37TQDgQA/profile-displayphoto-shrink_400_400/B56ZOnHwe5GgAg-/0/1733675649748?e=1758153600&v=beta&t=p99QN19eDXqAoKtWvigEF4-h24QwW50gDhphoua5IRU
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    x: abhinavsharma_x
+    linkedin: abhinavsharma07
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+prteam:
+  name: PR Team
+  title: Press Release Authority
+  url: https://openresearchlaboratory.necrozmalabs.com
+  image_url: https://media.licdn.com/dms/image/v2/D560BAQHl_2a6RfxMgg/company-logo_100_100/B56Zg7JawuHMAQ-/0/1753338981899?e=1758153600&v=beta&t=QVsztQG0l2bGBcfm4-YedDNa474O8R746HGQGjAlcX4
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: https://x.com/Necrozmalabs
+    linkedin: https://www.linkedin.com/company/open-research-laboratory
+
+team:
+  name: CTO Office
+  title: Open Research Laboratory
+  url: https://openresearchlaboratory.necrozmalabs.com
+  image_url: https://media.licdn.com/dms/image/v2/D560BAQHl_2a6RfxMgg/company-logo_100_100/B56Zg7JawuHMAQ-/0/1753338981899?e=1758153600&v=beta&t=QVsztQG0l2bGBcfm4-YedDNa474O8R746HGQGjAlcX4
+  socials:
+    x: https://x.com/Necrozmalabs
+    linkedin: https://www.linkedin.com/company/open-research-laboratory
