@@ -10,7 +10,7 @@ The Open Research Laboratory allows users to conduct realistic simulations, anal
 
 By combining state-of-the-art computational tools with collaborative features, the platform empowers researchers to accelerate their work and push the boundaries of scientific understanding. It is designed to be inclusive, ensuring that both seasoned scientists and emerging researchers can engage with experiments and data in meaningful ways.
 
-To begin your journey in the Open Research Laboratory, we recommend starting with the Getting Started guide.
+#### To begin your journey in the Open Research Laboratory, we recommend starting with the Getting Started guide.
 :::note
 
 Visit Getting Start Guide [Click here](/docs/guides/getting-started.md)

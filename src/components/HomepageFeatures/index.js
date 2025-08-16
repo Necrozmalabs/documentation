@@ -58,7 +58,7 @@ export default function HomepageFeatures() {
 </div> */}
 
       <div className="container">
-        <h1 className='h1' style={{marginBottom:"80px"}}>Build For Researchers, By Researchers</h1>
+        <h1 className='h1' style={{marginBottom:"80px", marginTop:"50px"}}>Build For Researchers, By Researchers</h1>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
