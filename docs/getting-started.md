@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Getting Started
 description: A comprehensive guide to using Necrozma Open Research Laboratory for experiments and workflows.
 ---

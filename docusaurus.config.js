@@ -110,7 +110,7 @@ const config = {
               },
               {
                 label: 'Getting Started',
-                to: '/docs/guides/getting-started',
+                to: '/docs/getting-started',
               },
               {
                 label: 'Guides',

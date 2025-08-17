@@ -13,14 +13,15 @@ By combining state-of-the-art computational tools with collaborative features, t
 #### To begin your journey in the Open Research Laboratory, we recommend starting with the Getting Started guide.
 :::note
 
-Visit Getting Start Guide [Click here](/docs/guides/getting-started.md)
+Visit Getting Start Guide [Click here](/docs/getting-started.md)
 
 :::
 
 After becoming familiar with the fundamentals, you can explore the available laboratories and design your own custom experiments within the platform.
 
+:::info Info
 #### Check for the available labs [here](https://openresearchlaboratory.necrozmalabs.com/experiment)
-
+:::
 
 The laboratory supports experimentation in multiple domains, allowing you to test hypotheses, visualize outcomes, and iterate safely without the constraints of a physical laboratory. By engaging with these resources, you can develop a deeper understanding of complex scientific concepts and methodologies.
 
