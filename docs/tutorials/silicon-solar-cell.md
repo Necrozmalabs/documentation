@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Silicon Solar cell in ORL
-description: This documentation provides a detailed overview of a **research-grade silicon solar cell** fabricated and tested in our Open Research Laboratory. 
+description: This documentation provides a detailed overview of a silicon solar cell desinged and tested in our Open Research Laboratory.
 ---
 
 import Tabs from '@theme/Tabs';
@@ -10,14 +10,15 @@ import TabItem from '@theme/TabItem';
 # Creating a Silicon Solar Cell in Open Research Laboratory 
 
 
-This documentation provides a detailed overview of a **research-grade silicon solar cell** fabricated and tested in our **Open Research Laboratory**. 
+This documentation provides a detailed overview of a **silicon solar cell** desinged and tested in the **Open Research Laboratory.**
+
 :::info
 It includes the objectives of the study, the solar cell stack, testing results, and interactive tabs for experimental curves.
 :::
 
 ## About the Solar Cell
 
-The cell is a monocrystalline silicon solar cell, optimized for high efficiency using standard layers including anti-reflective coating, passivation layers, and front/rear contacts. This solar cell is designed and fabricated in the **Open Research Laboratory**.
+The cell is a monocrystalline silicon solar cell, optimized for high efficiency using standard layers including anti-reflective coating, passivation layers, and front/rear contacts. This solar cell is designed and tested in the **Open Research Laboratory**.
 
 ## Objectives of this Research
 
